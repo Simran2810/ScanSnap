@@ -1,0 +1,29 @@
+{
+	"background": {
+		"scripts": ["scripts/jquery.min.js", "scripts/chromereload.js", "scripts/background.js"]
+	},
+	"browser_action": {
+		"default_icon": {
+			"19": "images/icon-19.png",
+			"38": "images/icon-38.png"
+		},
+		"default_title": "__MSG_appName__"
+	},
+	"default_locale": "en",
+	"description": "__MSG_appDescription__",
+	"icons": {
+		"128": "images/icon-128.png",
+		"16": "images/icon-16.png",
+		"19": "images/icon-19.png",
+		"38": "images/icon-38.png"
+	},
+	"manifest_version": 2,
+	"name": "__MSG_appName__",
+	"optional_permissions": ["desktopCapture"],
+	"options_page": "options.html",
+	"permissions": ["contextMenus", "tabs", "activeTab", "storage", "<all_urls>", "clipboardWrite"],
+	"short_name": "__MSG_appShortName__",
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"version": "2.9.5",
+	"web_accessible_resources": ["dialog.html", "config/config.json", "images/gear.png", "images/close.png"]
+}
